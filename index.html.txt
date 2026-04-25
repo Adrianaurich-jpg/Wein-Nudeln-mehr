@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wein, Nudeln und mehr – Neuffen</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background-color: #f6f1e7;
+        color: #3b2f2f;
+    }
+
+    header {
+        background-image: url('https://images.unsplash.com/photo-1510626176961-4b57d4fbad03');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 80px 20px;
+        text-align: center;
+        color: white;
+    }
+
+    header h1 {
+        font-size: 42px;
+        margin: 0;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+
+    header p {
+        font-size: 18px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+
+    nav {
+        background-color: #6b4f3b;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+        background-color: #3b2f2f;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .highlight {
+        color: #6b4f3b;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Wein, Nudeln & mehr</h1>
+    <p>Ihr kleiner, liebevoller Dorfladen in Neuffen</p>
+</header>
+
+<nav>
+    <a href="#ueberuns">Über uns</a>
+    <a href="#sortiment">Sortiment</a>
+    <a href="#zeiten">Öffnungszeiten</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="ueberuns">
+    <div class="card">
+        <h2>Über uns</h2>
+        <p>
+            Willkommen bei <span class="highlight">Wein, Nudeln und mehr</span> – Ihrem kleinen, persönlichen Lebensmittelhändler
+            im Herzen von Neuffen. Bei uns finden Sie ausgewählte Weine, hochwertige Pasta und viele regionale Spezialitäten.
+        </p>
+        <p>
+            Wir stehen für persönliche Beratung, ehrliche Produkte und eine Atmosphäre wie früher – einfach, herzlich und nah.
+        </p>
+    </div>
+</section>
+
+<section id="sortiment">
+    <div class="card">
+        <h2>Unser Sortiment</h2>
+        <ul>
+            <li>🍷 Weine aus der Region & Europa</li>
+            <li>🍝 Hochwertige Nudeln & Pasta</li>
+            <li>🧀 Kleine Feinkost-Auswahl</li>
+            <li>🥖 Saisonale Spezialitäten</li>
+        </ul>
+    </div>
+</section>
+
+<section id="zeiten">
+    <div class="card">
+        <h2>Öffnungszeiten</h2>
+        <p>
+            <strong>Montag:</strong> Geschlossen<br>
+            <strong>Dienstag:</strong> Geschlossen<br>
+            <strong>Mittwoch:</strong> 16:30 – 19:00<br>
+            <strong>Donnerstag:</strong> Geschlossen<br>
+            <strong>Freitag (Tag der Arbeit):</strong> Geschlossen<br>
+            <strong>Samstag:</strong> 09:30 – 13:00<br>
+            <strong>Sonntag:</strong> Geschlossen
+        </p>
+    </div>
+</section>
+
+<section id="kontakt">
+    <div class="card">
+        <h2>Kontakt & Adresse</h2>
+        <p>
+            📍 <strong>Hauptstraße 20</strong><br>
+            72639 Neuffen
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© Wein, Nudeln und mehr – Neuffen | Ein kleiner Laden mit Herz</p>
+</footer>
+
+</body>
+</html>
